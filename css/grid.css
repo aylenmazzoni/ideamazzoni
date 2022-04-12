@@ -16,7 +16,7 @@
 
 #header {
     grid-area: nav;
-    background-color: rgb(216, 124, 188);
+    background-image: linear-gradient(to left, rgb(228, 140, 198),rgb(218, 73, 169), rgb(228, 140, 198));
 }
 
 .titulo {
@@ -87,7 +87,7 @@
 
 .containerSection {
     grid-area: section;
-    background-color: rgb(216, 124, 188);
+    background-image: linear-gradient(to left, rgb(228, 140, 198),rgb(218, 73, 169), rgb(228, 140, 198));
     display: flex;
     justify-content: center;
     align-items: center;
@@ -139,7 +139,7 @@
     flex-direction: column;
     justify-content: center;
     height: 100%;
-    background-color: rgb(235, 188, 223);
+    background-image: linear-gradient(to left, rgb(228, 140, 198),rgb(218, 73, 169), rgb(228, 140, 198));
 }
 
 .textoNos p{
