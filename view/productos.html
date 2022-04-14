@@ -1,53 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <title>Equacia Indumentaria</title>
-    <link rel="stylesheet" href="../css/style.css">
 </head>
+
 <body>
-    <header id="header">
-        <div class="titulo">
-            <h1>Equacia Indumentaria</h1>
-        </div>
-        <nav class="containerMenu">
-            <div class="containerLogo">
-                <a href="../index.html"><img class="logo" src="../img/logo.png.jpeg" width="100" alt="logo"></a>
+    <nav class="navbar navbar-expand-lg navbar-dark  bg-info p-2">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html"><img class="p-3" src="../img/logo.png.jpeg" width="100"
+                    alt="logo">Equacia Indumentaria</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse container-fluid" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="./productos.html">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="./promociones.html">Promociones</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="./nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="./contacto.html">Contactos</a>
+                    </li>
+                </ul>
             </div>
-            <ul class="containerLista">
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="./productos.html">Productos</a></li>
-                <li><a href="./promociones.html">Promociones</a></li>
-                <li><a href="./nosotros.html">Nosotros</a></li>
-                <li><a href="./contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <main>
-        <div class="productos" >
-            <h1>Productos</h1>
         </div>
-        <ul class="containerImg" >
-            <li><a href=""><img src="../img/pantalon.jpg" width="250" alt=""></a></li>
-            <li><a href=""><img src="../img/remera.jpg" width="250" alt=""></a></li>
-            <li><a href=""><img src="../img/sweater.jpg" width="250" alt=""></a></li>
-            <li><a href=""><img src="../img/top.jpg" width="250" alt=""></a></li>
-        </ul>
-    </main>
+    </nav>
 
-    <footer  class="containerFooter" >
-        <div class="footerTitulo">
-            <h3>Nuestras redes</h3>
+    <div class="container p-3">
+        <div class="row">
+            <div class="col p-3">
+                <div class="card" style="width: 15rem;">
+                    <img src="../img/top.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Tops</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col p-3">
+                <div class="card" style="width: 15rem;">
+                    <img src="../img/sweater.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Sweaters</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col p-3">
+                <div class="card" style="width: 15rem;">
+                    <img src="../img/remera.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Remeras</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col p-3">
+                <div class="card" style="width: 15rem;">
+                    <img src="../img/pantalon.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Pantalones</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
+            </div>
         </div>
+    </div>
 
-        <div  class="footerRedes">
-            <a href="https://www.facebook.com/" target="_blank"><img src="../img/fb.png.jpeg" width="33" alt="Facebook"></a>
-            <a href="https://www.instagram.com/" target="_blank" ><img src="../img/inst.png.jpeg" width="35" alt="Intagram"></a>
-    
+    <div class="container-fluid bg-dark p-5">
+        <div class="row align-items-center">
+            <div class="col">
+                <h3 class="footerB">Nuestras redes</h3>
+            </div>
         </div>
-    </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
