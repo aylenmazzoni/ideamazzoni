@@ -153,3 +153,25 @@
 .footerB{
     color: white;
 }
+
+.containerImg{
+    display: flex;
+    gap: 25px;
+    justify-content:center;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.containerImg li{
+    list-style: none;
+}
+
+.promociones{
+    display: flex;
+    justify-content: center;
+}
+
+.productos{
+    display: flex;
+    justify-content: center;
+}
