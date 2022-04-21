@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.containerGrid {
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: "nav nav nav" "main main main" "section section section" "footer footer footer";
+  -ms-grid-rows: 1fr 3fr 2fr 1fr;
+      grid-template-rows: 1fr 3fr 2fr 1fr;
+}
+
+.header {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-area: nav;
+  background-image: -webkit-gradient(linear, right top, left top, from(#e48cc6), color-stop(#da49a9), to(#e48cc6));
+  background-image: linear-gradient(to left, #e48cc6, #da49a9, #e48cc6);
+}
+
+.header .headerTitulo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.header .headerTitulo h1 {
+  font: 50px "Dancing Script", cursive;
+}
+
+.header .headerMenu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .headerMenu .containerLogo {
+  margin-left: 40px;
+}
+
+.header .headerMenu .containerLogo .logo {
+  border-radius: 50px;
+}
+
+.header .headerMenu .containerLista {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 50%;
+}
+
+.header .headerMenu .containerLista li {
+  list-style: none;
+}
+
+.header .headerMenu .containerLista li a {
+  text-decoration: none;
+  font: 25px "Dancing Script", cursive;
+  color: white;
+}
+
+.containerMain {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-area: main;
+  background-image: url(../img/index.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.containerMain .texto {
+  width: 70%;
+  font: 25px "Dancing Script", cursive;
+  color: #5c092c;
+  border-radius: 15px;
+  background-color: rgba(255, 254, 254, 0.3);
+}
+
+.containerSection {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-area: section;
+  background-image: -webkit-gradient(linear, right top, left top, from(#e48cc6), color-stop(#da49a9), to(#e48cc6));
+  background-image: linear-gradient(to left, #e48cc6, #da49a9, #e48cc6);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 15px;
+}
+
+.containerFooter {
+  -ms-grid-row: 4;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-area: footer;
+  background-color: black;
+}
+
+.containerFooter .footerTitulo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.containerFooter .footerTitulo h3 {
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
