@@ -101,3 +101,68 @@
         }
     }
 }
+
+.containerNos {
+
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    & &Titulo {
+        display: flex;
+        justify-content: center;
+    }
+
+    h2{
+        font: $titleStyle;
+    }
+
+    & &Texto{
+        font: $listStyle;
+        padding: 10px;
+        line-height: 1.5;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+        p{
+            display: flex;
+            justify-content: center;
+            width: 80%;
+        }
+    }
+}
+
+.containerImg{
+    display: grid;
+    list-style: none;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+}
+
+.containerImg li{
+    padding: 10px;
+}
+
+.containerPromociones{
+    display: flex;
+    font: $listStyle;
+    justify-content: center;
+    width: 100%;
+}
+
+//----------------------------------------------------------------------
+
+.containerProductos{
+    height: 100vh;
+}
+
+.productos{
+    display: flex;
+    justify-content: center;
+
+    h1{
+        font: $titleStyle;
+    }
+}

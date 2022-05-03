@@ -140,4 +140,98 @@
 .containerFooter .footerTitulo h3 {
   color: white;
 }
+
+.containerNos {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.containerNos .containerNosTitulo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.containerNos h2 {
+  font: 50px "Dancing Script", cursive;
+}
+
+.containerNos .containerNosTexto {
+  font: 25px "Dancing Script", cursive;
+  padding: 10px;
+  line-height: 1.5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.containerNos .containerNosTexto p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 80%;
+}
+
+.containerImg {
+  display: -ms-grid;
+  display: grid;
+  list-style: none;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-items: center;
+}
+
+.containerImg li {
+  padding: 10px;
+}
+
+.containerPromociones {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font: 25px "Dancing Script", cursive;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+}
+
+.containerProductos {
+  height: 100vh;
+}
+
+.productos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.productos h1 {
+  font: 50px "Dancing Script", cursive;
+}
 /*# sourceMappingURL=style.css.map */
